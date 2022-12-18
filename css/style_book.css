@@ -1,0 +1,58 @@
+/*for nav*/
+#nav_object{
+    position: relative;
+    right: 5%;
+}
+#na_lig{
+    color: white;
+}
+.lin{
+    color:blue;
+}
+.lout{
+    border: solid blue;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+}
+.signin{
+    margin-left: 65px;
+
+}
+.header{
+    margin: 40px 40px;
+
+}
+#shd{
+    box-shadow: 10px 10px 5px lightblue;
+}
+/* footer */
+.foot{
+    display: block;
+    height: 160px;
+    width: 100%;
+    background-color:#343a40!important;
+    padding:10px;
+}
+.foot_notes{
+    color: white;
+    margin: 10px;
+    border: 10px solid #343a40;
+    font-size: 12px;
+    display: inline-block;
+}
+td{
+    padding: 5px;
+}
+.subfoot{
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color:#212427!important;
+    
+}
+.subfoot p {
+    color:white;
+    margin-left: 40%;
+}

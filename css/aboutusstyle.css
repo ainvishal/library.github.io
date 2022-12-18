@@ -1,0 +1,159 @@
+/*for nav*/
+#nav_object{
+    position: relative;
+    right: 5%;
+}
+#na_lig{
+    color: white;
+}
+.lin{
+    color:blue;
+}
+.lout{
+    border: solid blue;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+}
+.signin{
+    margin-left: 65px;
+
+}
+/* for scrolling
+.main_scrolings_section{
+    height: 100%;
+    width: 90%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+}
+.cover{
+    height: 50%;
+    width: 90%;
+    position: relative;
+}
+.cover::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(90deg, black, transparent);
+
+}
+.cover::after{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(-90deg, black, transparent);
+    
+}
+.scroll_image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    overflow: auto;
+    align-items: center;
+    position: relative;
+    scroll-behavior: smooth;
+}
+.images{
+    min-width: 600px;
+    height: 450px;
+    margin: 1px 10px;
+    cursor: pointer;
+    border:1px solid white;
+    overflow: hidden;   
+}
+.scroll_image::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.child_imag{
+    width: 580px;
+    height: 500px;
+}
+.icon{
+    color: blueviolet;
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.icon:hover{
+    color: yellow;
+} */
+/* for library Image */
+.main_image{
+    display: block;
+}
+hr{
+    border-style: dotted none none none;
+    border-top-color: darkblue;
+    width: 10%;
+    border-width: thick;
+}
+/* trending */
+.trending{
+    display: block;
+    height: 800px;
+    width: 100%;
+    margin: 10px 10px;
+}
+/* popular */
+.popular{
+    display: block;
+    height: 800px;
+    width: 100%;
+    margin: 10px 10px;
+}
+/* footer */
+.foot{
+    display: block;
+    height: 160px;
+    width: 100%;
+    background-color:#343a40!important;
+    padding:10px;
+}
+.foot_notes{
+    color: white;
+    margin: 10px;
+    border: 10px solid #343a40;
+    font-size: 12px;
+    display: inline-block;
+}
+td{
+    padding: 5px;
+}
+.subfoot{
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color:#212427!important;
+    
+}
+.subfoot p {
+    color:white;
+    margin-left: 40%;
+}
+.aboutus{
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.aboutus-text{
+    margin-left: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
